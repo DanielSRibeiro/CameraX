@@ -1,4 +1,4 @@
-### CameraX com Jetpack Compose
+# CameraX com Jetpack Compose
 
 Este projeto foi desenvolvido como base para estudo do uso da câmera no Jetpack Compose utilizando o CameraX. Ele demonstra a captura de imagens e a exibição da visualização da câmera de forma intuitiva e moderna.
 
