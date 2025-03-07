@@ -1,4 +1,4 @@
-package com.example.camerax
+package com.example.camerax.ui.screen.camera
 
 import androidx.camera.view.LifecycleCameraController
 import androidx.camera.view.PreviewView

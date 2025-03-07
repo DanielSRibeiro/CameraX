@@ -1,4 +1,4 @@
-package com.example.camerax
+package com.example.camerax.ui.screen.camera
 
 import android.graphics.Bitmap
 import androidx.compose.foundation.Image
