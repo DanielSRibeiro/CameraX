@@ -1,4 +1,4 @@
-package com.example.camerax
+package com.example.camerax.presentation
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -8,8 +8,11 @@ import android.Manifest
 import android.content.pm.PackageManager
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
-import com.example.camerax.ui.screen.camera.MainScreen
+import androidx.navigation.compose.rememberNavController
+import com.example.camerax.presentation.navigation.NavigationGraph
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -22,7 +25,7 @@ class MainActivity : ComponentActivity() {
         }
         setContent {
             CameraXTheme {
-                MainScreen()
+                NavigationGraph(navController = rememberNavController())
             }
         }
     }
