@@ -6,6 +6,8 @@ Este projeto foi desenvolvido como base para estudo do uso da câmera no Jetpack
 
 - Kotlin
 - Jetpack Compose
+- Navigation
+- MVVM, Clean architecture
 - CameraX
 - AndroidX Lifecycle
 - Coroutines
@@ -16,3 +18,6 @@ Este projeto foi desenvolvido como base para estudo do uso da câmera no Jetpack
 - Capturar imagens
 - Alternar entre câmera frontal e traseira
 - Gerenciar permissões de câmera no Android
+
+## Screenshot
+  <img src="imagens\tela1.jpeg" width="200"> <img src="imagens\tela2.jpeg" width="200"> <img src="imagens\tela3.jpeg" width="200">
